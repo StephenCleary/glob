@@ -999,7 +999,7 @@ const run = async () => {
 
     const globber = await glob.create(patterns);
     const files = await globber.glob();
-    for (const file in files) {
+    for (const file of files) {
         console.log(`Found ${file}`);
     }
     core.setOutput("files", files);
