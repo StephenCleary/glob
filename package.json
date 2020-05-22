@@ -1,0 +1,23 @@
+{
+  "name": "glob",
+  "description": "GitHub Action that finds files using globs (wildcards)",
+  "scripts": {
+      "build": "ncc build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenCleary/glob.git"
+  },
+  "keywords": [],
+  "author": "Stephen Cleary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StephenCleary/glob/issues"
+  },
+  "homepage": "https://github.com/StephenCleary/glob#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/glob": "^0.1.0",
+    "@zeit/ncc": "^0.22.2"
+  }
+}

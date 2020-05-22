@@ -1,0 +1,13 @@
+name: 'glob'
+description: 'Find files using globs (wildcards)'
+inputs:
+  patterns:
+    description: 'Glob wildcard patterns, separated by newlines'
+    required: true
+    default: '**/*'
+outputs:
+  files:
+    description: 'An array of matching files'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
