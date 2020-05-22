@@ -1,4 +1,5 @@
-name: 'glob'
+name: 'glob-action'
+author: 'Stephen Cleary'
 description: 'Find files using globs (wildcards)'
 inputs:
   patterns:
@@ -11,3 +12,6 @@ outputs:
 runs:
   using: 'node12'
   main: 'dist/index.js'
+branding:
+  icon: 'search'
+  color: 'blue'
