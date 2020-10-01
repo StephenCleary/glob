@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/StephenCleary/glob#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "@actions/glob": "^0.1.0",
     "@zeit/ncc": "^0.22.2"
   }
